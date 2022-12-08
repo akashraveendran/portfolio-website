@@ -3517,6 +3517,15 @@ body.is-preload #header.alt .logo {
 	color: #636363;
 }
 
+.bold-text {
+	font-weight: 700;
+}
+
+#main h2,
+#main h3 {
+	font-weight: 700;
+}
+
 #main blockquote {
 	border-left-color: #dddddd;
 }
