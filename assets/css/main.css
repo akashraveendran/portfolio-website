@@ -2384,10 +2384,11 @@ input[type="radio"]:focus+label:before {
 .icon.major {
 	border: solid 1px;
 	display: inline-block;
-	border-radius: 100%;
+	border-radius: 10px;
 	padding: 0.65em;
 	margin: 0 0 2em 0;
 	cursor: default;
+	overflow: hidden;
 }
 
 .icon.major:before {
@@ -2396,7 +2397,7 @@ input[type="radio"]:focus+label:before {
 	width: 2.25em;
 	height: 2.25em;
 	line-height: 2.2em;
-	border-radius: 100%;
+	border-radius: 10px;
 	border: solid 1px;
 	text-align: center;
 }
@@ -2404,7 +2405,7 @@ input[type="radio"]:focus+label:before {
 .icon.alt {
 	display: inline-block;
 	border: solid 1px;
-	border-radius: 100%;
+	border-radius: 10px;
 }
 
 .icon.alt:before {
